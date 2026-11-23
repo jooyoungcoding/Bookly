@@ -7,6 +7,7 @@
   ],
   "permissions": [
     "core:default",
+    "core:window:allow-toggle-maximize",
     "opener:default",
     "sql:default",
     "dialog:default",

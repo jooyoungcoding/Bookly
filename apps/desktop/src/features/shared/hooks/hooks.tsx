@@ -1,1 +1,1 @@
-export {};
+export { useDoubleClickMaximize } from "./useDoubleClickMaximize";
