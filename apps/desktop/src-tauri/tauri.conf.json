@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "desktop",
-        "width": 800,
-        "height": 600
+        "title": "Bookly",
+        "width": 1080,
+        "height": 720,
+        "minWidth": 720,
+        "minHeight": 540
       }
     ],
     "security": {
