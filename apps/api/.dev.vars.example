@@ -1,0 +1,2 @@
+# Add local-only secret values here; copy to .dev.vars.
+# Never commit .dev.vars

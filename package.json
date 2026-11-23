@@ -1,0 +1,19 @@
+{
+  "name": "bookly",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@12.21.0",
+  "scripts": {
+    "dev:desktop": "pnpm --filter @bookly/desktop tauri dev",
+    "dev:mobile": "pnpm --filter @bookly/mobile tauri android dev",
+    "dev:web": "pnpm --filter @bookly/web dev",
+    "dev:api": "pnpm --filter @bookly/api dev",
+    "build:desktop": "pnpm --filter @bookly/desktop tauri build",
+    "build:web": "pnpm --filter @bookly/web build",
+    "db:local": "pnpm --filter @bookly/api db:local"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
