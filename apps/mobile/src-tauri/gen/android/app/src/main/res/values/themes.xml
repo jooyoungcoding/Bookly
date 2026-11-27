@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.mobile" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your theme here. -->
+    <style name="Theme.mobile" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bookly_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>
